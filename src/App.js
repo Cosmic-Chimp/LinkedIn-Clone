@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Feed from "./Comps&styles/components/Feed/Feed";
 import Header from "./Comps&styles/components/Header/Header";
 import SideBar from "./Comps&styles/components/SideBar/SideBar";
 
@@ -11,7 +12,7 @@ function App() {
       {/* <AppBody> */}
       <div className="app__body">
         <SideBar />
-        {/* <Feed /> */}
+        <Feed />
         {/* <Widgets /> */}
       </div>
       {/* </AppBody> */}
